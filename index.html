@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Разработка сайтов, игр и приложений</title>
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="wrapper">
+	    <header class="header">
+	    	<div class="container">
+		        <nav class="menu">
+		            <a class="menu__item" href="#">Мои навыки</a>
+		            <a class="menu__item" href="#">Оставить заявку</a>
+		            <a class="menu__button" href="#">Позвонить</a>
+		        </nav>
+		    </div>
+	    </header>
+	    <section class=main>
+			<!-- Первая секция - главный экран -->
+			<img class="main__image" src="img/img_background.jpg" alt="фон">
+	    	<div class="container">
+	            <h1 class="main__title">Разработка сайтов, игр и&nbsp;приложений</h1>
+	            <p class="main__description">Помогаю воплощать мечты в&nbsp;реальность</p>
+	        </div>
+	    </section>
+		<section  class=advantages>
+			<!-- Вторая секция - преимущества -->
+			<!-- Почему вам стоит обратиться ко мне
+					Индивидуальный подход
+						Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.
+					Разумные цены
+						Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.
+					Отличный результат!
+						Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.-->
+	    	<div class="container">
+
+	            <h2 class="advantages__header" href="#">Почему вам стоит обратиться ко мне</h2>
+	            <div class="advantages__card">
+	            	<img class="advantages__card_image" src="img/heart.svg" alt="сердечко">
+	            	<p class=advantages__card-header>Индивидуальный подход</p>
+	            	<p class=advantages__card-description>Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.</p>
+	            </div>
+	            <div class="advantages__card">
+	            	<img class="advantages__card_image" src="img/price.svg" alt="копилка">
+	            	<p class=advantages__card-header>Разумные цены</p>
+	            	<p class=advantages__card-description>Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
+	            </div>
+	            <div class="advantages__card">
+	            	<img class="advantages__card_image" src="img/medal.svg" alt="медаль">
+	            	<p class=advantages__card-header>Отличный результат!</p>
+	            	<p class=advantages__card-description>Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
+	            </div>
+	            <a class="advantages__button" href="#">Получить консультацию</a>
+	        </div>
+		</section>
+		<section  class=skills>
+			<!-- Третья секция - мои навыки -->
+			<!-- Что я могу
+					Я умею писать валидный и семмантически верный код для вашего сайта или приложения
+						Ваш сайт и приложение будут верно работать, благодаря моей верстке
+					Я умею создавать игры и анимации с помощью JavaScript
+						Я свободно владею языком JavaScript и могу “оживить” ваш сайт и приложение
+					Я умею создавать приложения с помощью React
+						Благодаря моим навыкам, ваш сайти приложение будут максимально удобными в использовании-->
+	    	<div class="container">
+				<h2 class="skills__header" href="#">Что я могу</h2>
+	            <div class="skills__card all-visible">
+	            	<img class="skills__card_image" src="img/skill1.svg" alt="компьютер">
+	            	<p class=skills__card_header>Я умею писать валидный и семмантически верный код для вашего сайта или приложения</p>
+	            	<p class=skills__card_description>Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
+	            </div>
+	            <div class="skills__card desktop-only">
+	            	<p class=skills__card_header>Я умею создавать игры и анимации с помощью JavaScript</p>
+	            	<p class=skills__card_description>Я свободно владею языком JavaScript и могу “оживить” ваш сайт и приложение</p>
+	            	<img class="skills__card_image" src="img/skill2.svg" alt="JavaScript">
+	            </div>
+	            <div class="skills__card desktop-only">
+	            	<img class="skills__card_image" src="img/skill3.svg" alt="атом">
+	            	<p class=skills__card_header>Я умею создавать приложения с помощью React</p>
+	            	<p class=skills__card_description>Благодаря моим навыкам, ваш сайти приложение будут максимально удобными в использовании</p>
+	            </div>
+	        </div>
+		</section>
+		<section class="feedback">
+			<!-- Четвертая секция - форма обратной связи -->
+	    	<div class="container">
+				<h2 class="feedback__header">Есть вопросы?</h2>
+				<p class="feedback__description">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p>
+				<form class="feedback__form" action="#">
+					<input class="feedback__form-name" type="text" name="name" placeholder="Имя и фамилия" required>
+					<input class="feedback__form-tel" type="tel" name="phone" placeholder="Номер телефона" required>
+					<input class="feedback__form-email" type="email" name="email" placeholder="e-mail" required>
+					<button class="feedback__form-button" type="submit">Отправить</button>
+				</form>
+			</div>
+		</section>
+		<footer class="footer">
+			<!-- Подвал -->
+	    	<div class="container">
+				<p class="footer__header">Меня можно найти в социальных сетях:</p>
+				<img class="footer__image" src="img/linkedin.svg" alt="linkedin">
+				<img class="footer__image" src="img/instagram.svg" alt="instagram">
+				<img class="footer__image" src="img/facebook.svg" alt="facebook">
+				<p class="footer__copyright">2020  © WebHero School</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+.menu{
+	text-align: right;
+}
+
+.menu__item{
+	font: 800 20px/25px Gilroy, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #585858;
+}
+
+.menu__button{
+	font: 800 20px/25px Montserrat, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	background: #330099;
+}
+
+.main{
+	text-align: right;
+}
+
+.main__title{
+	font: 900 40px/49px Montserrat, Arial, Helvetica, sans-serif;
+	color: #330099;
+}
+
+.main__description{
+	font: bold 30px/37px Montserrat, Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+
+/* Заголовки <h2> (можно было написать просто h2...) */
+.advantages__header,
+.skills__header,
+.feedback__header{
+	font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #585858;
+}
+
+.advantages{
+	background: #F9F9F9;
+}
+
+.advantages__card-header{
+	font: bold 30px/37px Montserrat, Arial, Helvetica, sans-serif;
+	color: #585858;
+}
+
+.advantages__card-description,
+.skills__card_description{
+	font: 500 20px/25px Montserrat, Arial, Helvetica, sans-serif;
+	color: #585858;
+}
+
+.advantages__button{
+	font: 800 20px/25px Montserrat, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFDA45;
+	background: #330099;
+}
+
+.skills__card_header{
+	font: 600 30px/37px Montserrat, Arial, Helvetica, sans-serif;
+	color: #585858;
+}
+
+.feedback__description{
+	font: 600 20px/24 Montserrat, Arial, Helvetica, sans-serif;
+	color: #585858;
+}
+
+.feedback__form-name,
+.feedback__form-tel,
+.feedback__form-email{
+	font: 600 15px/18 Montserrat, Arial, Helvetica, sans-serif;
+	color: #858585;
+}
+
+.feedback__form-button{
+	font: 900 20px/24 Montserrat, Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background: #4AB272;
+;
+}
+
+.footer__header,
+.footer__copyright{
+	font: 20px/24 Roboto, Arial, Helvetica, sans-serif;
+	text-align: center;
+}

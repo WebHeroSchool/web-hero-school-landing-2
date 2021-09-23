@@ -67,19 +67,19 @@
 }
 
 .feedback__description{
-	font: 600 20px/24 Montserrat, Arial, Helvetica, sans-serif;
+	font: 600 20px/24px Montserrat, Arial, Helvetica, sans-serif;
 	color: #585858;
 }
 
 .feedback__form-name,
 .feedback__form-tel,
 .feedback__form-email{
-	font: 600 15px/18 Montserrat, Arial, Helvetica, sans-serif;
+	font: 600 15px/18px Montserrat, Arial, Helvetica, sans-serif;
 	color: #858585;
 }
 
 .feedback__form-button{
-	font: 900 20px/24 Montserrat, Arial, Helvetica, sans-serif;
+	font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif;
 	color: #FFF;
 	background: #4AB272;
 }
@@ -90,7 +90,7 @@
 
 .footer__header,
 .footer__copyright{
-	font: 20px/24 Roboto, Arial, Helvetica, sans-serif;
+	font: 20px/24px Roboto, Arial, Helvetica, sans-serif;
 	text-align: center;
 	color: #FFF;
 }

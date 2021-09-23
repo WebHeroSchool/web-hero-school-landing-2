@@ -17,6 +17,7 @@
 
 .main{
 	text-align: right;
+	background: center no-repeat url(img/img_background.jpg); /* Для визуализации подзаголовка */
 }
 
 .main__title{
@@ -81,11 +82,15 @@
 	font: 900 20px/24 Montserrat, Arial, Helvetica, sans-serif;
 	color: #FFF;
 	background: #4AB272;
-;
+}
+
+.footer{
+	background: #330099;  /* Для визуализации текста */
 }
 
 .footer__header,
 .footer__copyright{
 	font: 20px/24 Roboto, Arial, Helvetica, sans-serif;
 	text-align: center;
+	color: #FFF;
 }

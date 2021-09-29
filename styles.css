@@ -1,33 +1,63 @@
+body{
+	margin: 0;
+}
+
+.container{
+	width: 86.4%;
+	margin: auto;
+}
+
+.header{
+	/*margin: 3px 0 0 0;*/
+	border: 3px solid #330099;
+	border-left-style: none;
+	border-right-style: none;
+}
+
 .menu{
+	padding: 44px 0 40px 0;
 	text-align: right;
 }
 
 .menu__item{
+	/*padding: 33px 0;*/
+	margin-right: 40px;
 	font: 800 20px/25px Gilroy, Arial, Helvetica, sans-serif;
 	text-decoration: none;
 	color: #585858;
 }
 
 .menu__button{
+	padding: 13px 30px;
 	font: 800 20px/25px Montserrat, Arial, Helvetica, sans-serif;
 	text-decoration: none;
 	color: #FFF;
 	background: #330099;
+	border-radius: 50px;
 }
 
 .main{
+	padding: 10.5vw 0 10.3vw 0;
 	text-align: right;
-	background: center no-repeat url(img/img_background.jpg); /* Для визуализации подзаголовка */
+	background: no-repeat url(img/img_background.jpg);
+	background-size: cover;
 }
 
 .main__title{
-	font: 900 40px/49px Montserrat, Arial, Helvetica, sans-serif;
+	margin: 0 0 .6vw 0;
+	padding: 0 0 0 53%;
+	font: 900  2.78vw/3.4vw Montserrat, Arial, Helvetica, sans-serif;
 	color: #330099;
 }
 
 .main__description{
-	font: bold 30px/37px Montserrat, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0 0 0 70%;
+	font: bold  2.08vw/2.65vw Montserrat, Arial, Helvetica, sans-serif;
 	color: #FFF;
+}
+.main__description_first-line{
+	    margin-inline-end: .6vw;
 }
 
 /* Заголовки <h2> (можно было написать просто h2...) */

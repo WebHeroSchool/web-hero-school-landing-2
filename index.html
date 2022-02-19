@@ -17,12 +17,22 @@
 		            <a class='menu__button' href='#'>Позвонить</a>
 		        </nav>
 		    </div>
+        <div class="hamburger-menu">
+            <input id="hamburger-menu__toggle" type="checkbox" />
+            <label class="hamburger-menu__btn" for="hamburger-menu__toggle">
+                <span></span>
+            </label>
+            <ul class="hamburger-menu__box">
+                <li><a class="hamburger-menu__box_item" href="#">Мои навыки</a></li>
+                <li><a class="hamburger-menu__box_item" href="#">Оставить заявку</a></li>
+            </ul>
+        </div>
 	    </header>
 	    <section class=main>
 			<!-- Первая секция - главный экран -->
 			<!-- <img class='main__image' src='img/img_background.jpg' alt='фон'> -->
 	    	<div class='container'>
-	            <h1 class='main__title'>Разработка сайтов, игр и&nbsp;приложений</h1>
+	            <h1 class='main__title'>Разработка сайтов, <span class='main__title_two-line'>игр и&nbsp;приложений</span></h1>
 	            <p class='main__description'><span class='main__description_first-line'>Помогаю воплощать</span> мечты в&nbsp;реальность</p>
 	        </div>
 	    </section>
@@ -38,20 +48,26 @@
 	    	<div class='container'>
 
 	            <h2 class='advantages__header' href='#'>Почему вам стоит обратиться ко мне</h2>
-	            <div class='advantages__card'>
-	            	<img class='advantages__card_image' src='img/heart.svg' alt='сердечко'>
-	            	<p class=advantages__card-header>Индивидуальный подход</p>
-	            	<p class=advantages__card-description>Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.</p>
-	            </div>
-	            <div class='advantages__card'>
-	            	<img class='advantages__card_image' src='img/price.svg' alt='копилка'>
-	            	<p class=advantages__card-header>Разумные цены</p>
-	            	<p class=advantages__card-description>Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
-	            </div>
-	            <div class='advantages__card'>
-	            	<img class='advantages__card_image' src='img/medal.svg' alt='медаль'>
-	            	<p class=advantages__card-header>Отличный результат!</p>
-	            	<p class=advantages__card-description>Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
+	            <div class='advantages__box'>
+		            <div class='advantages__card'>
+		            	<img class='advantages__card_image' src='img/heart3.svg' alt='сердечко'>
+		            	<p class=advantages__card-header>Индивидуальный подход</p>
+		            	<p class=advantages__card-description>Каждый клиент для&nbsp;меня&nbsp;особенный. 
+		            	Я&nbsp;тщательно изучаю что&nbsp;ему&nbsp;необходимо,&nbsp;прежде, чем&nbsp;приступить к работе.</p>
+		            </div>
+		            <div class=spacer></div>
+		            <div class='advantages__card'>
+		            	<img class='advantages__card_image' src='img/price3.svg' alt='копилка'>
+		            	<p class=advantages__card-header>Разумные<br>&nbsp;цены</p>
+		            	<p class=advantages__card-description>Я предлагаю выгодные цены за&nbsp;безупречное выполнение работы и соблюдение сроков.</p>
+		            </div>
+		            <div class=spacer></div>
+		            <div class='advantages__card'>
+		            	<img class='advantages__card_image' src='img/medal.svg' alt='медаль'>
+		            	<p class=advantages__card-header>Отличный результат!</p>
+		            	<p class=advantages__card-description>Я внимательно работаю над&nbsp;каждым проектом. Я&nbsp;очень&nbsp;люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
+		            </div>
+		            <div class=spacer></div>
 	            </div>
 	            <a class='advantages__button' href='#'>Получить консультацию</a>
 	        </div>
@@ -67,20 +83,22 @@
 						Благодаря моим навыкам, ваш сайти приложение будут максимально удобными в использовании-->
 	    	<div class='container'>
 				<h2 class='skills__header' href='#'>Что я могу</h2>
-	            <div class='skills__card all-visible'>
-	            	<img class='skills__card_image' src='img/skill1.svg' alt='компьютер'>
-	            	<p class=skills__card_header>Я умею писать валидный и семмантически верный код для вашего сайта или приложения</p>
-	            	<p class=skills__card_description>Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
+	            <div class='skills__card skills__card_1 left_card all-visible'>
+	            	<!-- <img class='skills__card_image' src='img/skill1.svg' alt='компьютер'>-->
+		            <p class=skills__card_header>Я умею писать валидный и&nbsp;семмантически верный код для&nbsp;вашего сайта или приложения</p>
+		            <p class=skills__card_description>Ваш сайт и приложение будут верно&nbsp;работать, благодаря моей верстке</p>
 	            </div>
-	            <div class='skills__card desktop-only'>
-	            	<p class=skills__card_header>Я умею создавать игры и анимации с помощью JavaScript</p>
-	            	<p class=skills__card_description>Я свободно владею языком JavaScript и могу “оживить” ваш сайт и приложение</p>
-	            	<img class='skills__card_image' src='img/skill2.svg' alt='JavaScript'>
+	            <div class='skills__card skills__card_2 desktop-only'>
+	            	<div class='text__block right_card'>
+		            <p class=skills__card_header>Я умею создавать игры и&nbsp;анимации с помощью JavaScript</p>
+		            <p class='skills__card_description skills__card_description_right'>Я свободно владею языком JavaScript и&nbsp;могу “оживить” ваш сайт и приложение</p>
+		            </div>
+	            	<!-- <img class='skills__card_image' src='img/skill2.svg' alt='JavaScript'>-->
 	            </div>
-	            <div class='skills__card desktop-only'>
-	            	<img class='skills__card_image' src='img/skill3.svg' alt='атом'>
-	            	<p class=skills__card_header>Я умею создавать приложения с помощью React</p>
-	            	<p class=skills__card_description>Благодаря моим навыкам, ваш сайти приложение будут максимально удобными в использовании</p>
+	            <div class='skills__card skills__card_3 left_card desktop-only'>
+	            	<!-- <img class='skills__card_image' src='img/skill3.svg' alt='атом'>-->
+		            <p class=skills__card_header>Я умею создавать приложения с&nbsp;помощью React</p>
+		            <p class=skills__card_description>Благодаря моим навыкам, ваш сайт и&nbsp;приложение будут максимально удобными в использовании</p>
 	            </div>
 	        </div>
 		</section>

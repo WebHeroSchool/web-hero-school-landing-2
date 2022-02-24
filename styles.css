@@ -335,7 +335,7 @@ p{
     justify-content: space-between;
     width: 23.5vw;
     margin: 0 auto;
-    padding-top: 116vw;
+    padding-top: 115.5vw;
 }
 
 .dot{
@@ -450,7 +450,7 @@ p{
 	/*width: 80%;*/
 }
 .advantages__div{
-	margin-bottom: 10vw;
+	margin-bottom: 11.5vw;
 }
 .advantages__box{
     display: flex;
@@ -463,8 +463,9 @@ p{
 .advantages__card{
 	text-align: center;
 	width: 100%;
-	padding-top: 18vw;
+	padding-top: 18.5vw;
 	margin-bottom: 11vw;
+	min-height: 32vw;
 }
 
 .advantages__card_image{
@@ -480,8 +481,8 @@ p{
 }
 
 .advantages__card-description{
-	font: 500 5vw/6.5vw Montserrat, Arial, Helvetica, sans-serif;
-  margin: 0 0.2vw 0 -0.2vw;
+	font: 500 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 .br_symvol{
 	display: inline;
@@ -502,6 +503,7 @@ p{
 .advantages__card_3{
     background-size: 17.4vw;
     margin-bottom: 0;
+   /*padding-top: 19vw;*/
 }
 
 .advantages__button{
@@ -578,7 +580,7 @@ p{
 }
 
 .skills__card_description{
-    font: 500 4.4vw/5.5vw Montserrat, Arial, Helvetica, sans-serif;
+    font: 500 4.4vw/5.4vw Montserrat, Arial, Helvetica, sans-serif;
     width: 80%;
     margin: 0 auto;
 		margin-bottom: 9.2vw;

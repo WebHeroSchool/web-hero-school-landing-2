@@ -144,7 +144,7 @@ p{
 	text-align: right;
 	background: no-repeat url(img/img_background.jpg);
 	background-size: cover;
-	margin-bottom: 6.28vw;
+	/*margin-bottom: 6.28vw;*/
 }
 
 .main__title{
@@ -165,24 +165,27 @@ p{
 }
 
 /* Заголовки <h2> (можно было написать просто h2...) */
-.advantages__header{
+
+.advantages__header,
+.skills__header,
+.feedback__header{
+	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
 	font: 900 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
 	text-align: center;
 	color: #585858;
-	margin-bottom: 3.6vw;
 }
 
-/*.advantages__header,*/
-.skills__header,
-.feedback__header{
-	font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: #585858;
+.advantages__header{
+	margin-bottom: 3.6vw;
 }
 
 .advantages{
 	background: #F9F9F9;
-	padding: 0 0 8vw 0;
+	padding: 4.5vw 0 6.3vw 0;
+}
+
+.advantages__div{
+	margin-bottom: 6.7vw;
 }
 
 .advantages__box{
@@ -195,6 +198,8 @@ p{
 .advantages__card{
 	text-align: center;
 	width: 30%;
+	padding-top: 8vw;
+
 }
 
 .advantages__card_image{
@@ -202,51 +207,92 @@ p{
 }
 
 .advantages__card-header{
-	font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;
+	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
+	font: 900 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
 	color: #585858;
   margin: 0 2vw 0.6vw 2vw;
 }
 
 .advantages__card-description,
 .skills__card_description{
-	font: 500 20px/25px Montserrat, Arial, Helvetica, sans-serif;
+	/*font: 500 20px/25px Montserrat, Arial, Helvetica, sans-serif;*/
+	font: 500 1.4vw/1.7vw Montserrat, Arial, Helvetica, sans-serif;
 	color: #585858;
-  margin: 0 0.2vw 8vw -0.2vw;
+  margin: 0 0.2vw 0 -0.2vw;
+}
+.br_symvol{
+	display: none;
+}
+.advantages__card_1{
+		background: no-repeat url(img/heart3.svg);
+		background-position: top center;
+		background-size: 6vw;
+}
+
+.advantages__card_2{
+	  background: no-repeat url(img/price3.svg);
+    background-position: top center;
+    background-size: 6vw;
+}
+
+.advantages__card_3{
+    background: no-repeat url(img/medal.svg);
+    background-position: top center;
+    background-size: 6vw;
+}
+
+.button_div{
+	display: block;
 }
 
 .advantages__button{
-	font: 800 20px/25px Montserrat, Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	color: #FFDA45;
-	background: #330099;
-	border-radius: 50px;
-	padding: 21px 36px;
-	margin: 0 0 0 29vw;
+  display: flex;
+  justify-content: center;
+  /*font: 800 20px/25px Montserrat, Arial, Helvetica, sans-serif;*/
+  font: 800 1.4vw/1.7vw Montserrat, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #FFDA45;
+  background: #330099;
+  border-radius: 50px;
+  /*padding: 22px 36px 18px 34px;*/
+  padding: 1.53vw 2.5vw 1.25vw 2.36vw;
+  margin: 0 auto;
+  max-width: fit-content;
+}
+.skills{
+	padding: 6.2vw 0 1vw 0;
 }
 
 .skills__header{
-	padding: 6vw 0 0 0;
-	margin: 0 0 3.6vw 0;
+	margin: 0 0 3.4vw 0;
 }
 
 .skills__card{
-	/*display: flex;*/
-	height: 175px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 12.45vw;
 	margin-bottom: 5.2vw;
 }
 
 .text__block{
 	display: flex;
-	/*align-content: center;*/
 	flex-direction: column;
 	justify-content: center;
+	min-height: 7.5vw;
 }
+
+.text__block-padding{
+	padding-left: 1vw;
+}
+
 
 .skills__card_header{
 	font: 600 30px/37px Montserrat, Arial, Helvetica, sans-serif;
+	font: 600 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
 	color: #585858;
 	width: 40vw;
-	margin: 0 0 0.5vw 0;
+	margin: 0 0.2vw 0.5vw 0;
 }
 
 .left_card{
@@ -255,33 +301,58 @@ p{
 }
 
 .right_card{
-	padding: 0 14vw 0 0;
+	padding: 0 13.7vw 0 0;
 	text-align: right;
 	align-items: flex-end;
 }
 
 .skills__card_1{
 	background:  no-repeat url(img/skill1.svg);
+	background-size: 12.15vw;
 }
 
 .skills__card_2{
 	background:  no-repeat url(img/skill2.svg);
 	background-position: right;
+	background-size: 12.15vw;
 }
 
 .skills__card_3{
 	background:  no-repeat url(img/skill3.svg);
+	background-size: 12.15vw;
 }
 
 .skills__card_description{
 	width: 32vw;
-	/*padding: 0 0 0 14vw;*/
 }
 
 .skills__card_description_right{
 	text-align: right;
 }
+.dots{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 23.5vw;
+    margin: 0 auto;
+    padding-top: 116vw;
+}
 
+.dot{
+		border: solid 2px #E1E6E9;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+}
+/*
+.dot__fill{
+	background:#FFDA45;
+}
+*/
+.feedback{
+	padding: 2.4vw 1vw 0 0;
+	background: #E7E0F3
+}
 .feedback__description{
 	font: 600 20px/24px Montserrat, Arial, Helvetica, sans-serif;
 	color: #585858;
@@ -318,7 +389,9 @@ p{
 	border: none;
 	margin: 0;
 }
-
+.container{
+	/*width: 80%;*/
+}
 .menu{
 	padding: 16px 0 20px 0;
 }
@@ -360,4 +433,201 @@ p{
 .main__description {
 	padding: 0 1% 37vw 28%;
 	font: 700 5vw/6.3vw Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.advantages{
+	padding: 10.5vw 0 14vw 0;
+}
+.advantages__header{
+	margin-bottom: 11vw;
+}
+
+.advantages__header,
+.skills__header,
+.feedback__header{
+	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
+	font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+	/*width: 80%;*/
+}
+.advantages__div{
+	margin-bottom: 10vw;
+}
+.advantages__box{
+    display: flex;
+    flex-direction: column;
+/*    justify-content: space-between;
+    margin-left: -1.45vw;
+    margin-right: -0.7vw;*/
+}
+
+.advantages__card{
+	text-align: center;
+	width: 100%;
+	padding-top: 18vw;
+	margin-bottom: 11vw;
+}
+
+.advantages__card_image{
+	margin-bottom: 1.5vw;
+}
+
+.advantages__card-header{
+	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
+	font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+	width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+}
+
+.advantages__card-description{
+	font: 500 5vw/6.5vw Montserrat, Arial, Helvetica, sans-serif;
+  margin: 0 0.2vw 0 -0.2vw;
+}
+.br_symvol{
+	display: inline;
+}
+
+.advantages__card_1{
+/*		background: no-repeat url(img/heart3.svg);
+		background-position: top center;*/
+		background-size: 17.4vw;
+}
+
+.advantages__card_2{
+/*	  background: no-repeat url(img/price3.svg);
+    background-position: top center;*/
+    background-size: 17.4vw;
+}
+
+.advantages__card_3{
+    background-size: 17.4vw;
+    margin-bottom: 0;
+}
+
+.advantages__button{
+  font: 800 5vw/6.5vw Montserrat, Arial, Helvetica, sans-serif;
+  border-radius: 50px;
+  padding: 5.5vw 6.5vw 5vw 6.5vw;
+}
+
+.skills{
+	padding-bottom: 10.5vw;
+}
+
+.skills__header{
+	margin: 0 0 10.9vw 0;
+	padding-top: 5vw;
+}
+
+.skills__card{
+	position: absolute;
+	min-height: 50.45vw;
+	margin-bottom: 0;
+	padding: 58.2vw 0 0 0;
+  animation: round 12s infinite;
+  opacity: 0;
+	width: 93%;
+	left: 3vw;
+}
+
+@keyframes round {
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+}
+.skills__card_3 {
+  animation-delay: 8s;
+}
+
+.skills__card_2 {
+  animation-delay: 4s;
+}
+
+.skills__card_1 {
+  animation-delay: 0s;
+}
+
+.text__block{
+	display: flex;
+	justify-content: center;
+	min-height: 7.5vw;
+}
+
+.text__block-padding{
+	/*padding-left: 1vw;*/
+	padding: 0;
+}
+
+
+.skills__card_header{
+    font: 600 5vw/6.3vw Montserrat, Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 2.4vw;
+}
+
+.skills__card_1,
+.skills__card_2,
+.skills__card_3{
+    background-size: 54.6vw;
+    background-position: top center;
+}
+
+.skills__card_description{
+    font: 500 4.4vw/5.5vw Montserrat, Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+		margin-bottom: 9.2vw;
+}
+.skills__card_description_right{
+		text-align: center;
+}
+
+.left_card{
+	text-align: center;
+}
+.right_card{
+	text-align: center;
+}
+
+/*
+.desktop-only{
+	display: none;
+}
+*/
+
+.dots{
+    display: flex;
+}
+
+.dot{
+		animation: filling 12s infinite;
+}
+
+
+@keyframes filling {
+  33% {
+    background:#FFDA45;
+    border-color: #FFDA45;
+  }
+  66% {
+    background:none;
+    border-color: #E1E6E9;
+  }
+}
+
+.dot:nth-child(3) {
+  animation-delay: 8s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.dot:nth-child(1) {
+  animation-delay: 0s;
 }

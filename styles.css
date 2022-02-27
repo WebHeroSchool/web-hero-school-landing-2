@@ -198,7 +198,7 @@ p{
 .advantages__card{
 	text-align: center;
 	width: 30%;
-	padding-top: 8vw;
+	padding-top: 7.9vw;
 
 }
 
@@ -288,7 +288,7 @@ p{
 
 
 .skills__card_header{
-	font: 600 30px/37px Montserrat, Arial, Helvetica, sans-serif;
+	/*font: 600 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
 	font: 600 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
 	color: #585858;
 	width: 40vw;
@@ -339,7 +339,7 @@ p{
 }
 
 .dot{
-		border: solid 2px #E1E6E9;
+	border: solid 2px #E1E6E9;
     width: 4vw;
     height: 4vw;
     border-radius: 50%;
@@ -350,25 +350,69 @@ p{
 }
 */
 .feedback{
-	padding: 2.4vw 1vw 0 0;
+	padding: 2.4vw 1vw 4.15vw 0;
 	background: #E7E0F3
 }
+
+.feedback__header{
+	margin: 1.7vw 0 2.5vw 0;
+}
+
 .feedback__description{
-	font: 600 20px/24px Montserrat, Arial, Helvetica, sans-serif;
-	color: #585858;
+    /*font: 600 20px/24px Montserrat, Arial, Helvetica, sans-serif;*/
+    font: 600 1.4vw/1.65vw Montserrat, Arial, Helvetica, sans-serif;
+    color: #585858;
+    padding: 0 0 0 1vw;
+    width: 33%;
+    margin: 0 auto;
+    margin-bottom: 2.5vw;
+    text-align: center;
+}
+.feedback__form{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 30vw; */
+    margin: 0 auto;
+}
+
+.feedback__image_div{
+	background: no-repeat url(img/questions.svg);
+    background-size: 12.15vw;
+    background-position: top center;
+    min-height: 12.5vw;
+    margin-bottom: 3vw;
 }
 
 .feedback__form-name,
 .feedback__form-tel,
 .feedback__form-email{
-	font: 600 15px/18px Montserrat, Arial, Helvetica, sans-serif;
-	color: #858585;
+    /*font: 600 15px/18px Montserrat, Arial, Helvetica, sans-serif;*/
+    font: 600 1.04vw/1.27vw Montserrat, Arial, Helvetica, sans-serif;
+    color: #858585;
+    width: 14vw;
+    padding: 1.7vw 3.7vw 1.8vw 2.9vw;
+    margin-bottom: 1.55vw;
+    margin-left: 1vw;
+    border-radius: 50px;
+    border: none;
+}
+
+.feedback__form-email{
+	margin-bottom: 2.5vw;
 }
 
 .feedback__form-button{
-	font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif;
-	color: #FFF;
-	background: #4AB272;
+    /*font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif;*/
+    font: 900 1.4vw/1.65vw Montserrat, Arial, Helvetica, sans-serif;
+    color: #FFF;
+    background: #4AB272;
+    width: 21vw;
+    padding: 1.55vw 3vw 1.7vw 3vw;
+    /* margin-bottom: 1.55vw; */
+    margin-left: 1vw;
+    border-radius: 50px;
+    border: none;
 }
 
 .footer{
@@ -377,11 +421,27 @@ p{
 
 .footer__header,
 .footer__copyright{
-	font: 20px/24px Roboto, Arial, Helvetica, sans-serif;
+	/*font: 20px/24px Roboto, Arial, Helvetica, sans-serif;*/
+	font: 1.4vw/1.65vw Roboto, Arial, Helvetica, sans-serif;
 	text-align: center;
 	color: #FFF;
 }
 
+.footer__header {
+    padding: 4.2vw 0 1.3vw 0;
+}
+
+.footer__image_div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 5.2vw;
+    width: 26.5vw;
+}
+
+.footer__copyright{
+	padding-bottom: 4.25vw;
+}
 
 @media(max-width: 755px){
 
@@ -583,7 +643,7 @@ p{
     font: 500 4.4vw/5.4vw Montserrat, Arial, Helvetica, sans-serif;
     width: 80%;
     margin: 0 auto;
-		margin-bottom: 9.2vw;
+	margin-bottom: 9.2vw;
 }
 .skills__card_description_right{
 		text-align: center;
@@ -632,4 +692,92 @@ p{
 
 .dot:nth-child(1) {
   animation-delay: 0s;
+}
+
+.feedback{
+	padding: 2.4vw 1vw 9.5vw 0;
+}
+
+.feedback__header{
+	margin: 0 0 6.4vw 1.5vw;
+    padding-top: 8vw;
+}
+
+.feedback__description{
+    /* font: 600 16px/20px Montserrat, Arial, Helvetica, sans-serif; */
+    font: 600 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+    color: #585858;
+    padding: 0 0 0 1vw;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 6.5vw;
+    text-align: center;
+}
+/*
+.feedback__form{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 30vw;
+    margin: 0 auto;
+}
+ */
+.feedback__image_div{
+    background-size: 54.6vw;
+    min-height: 55vw;
+    margin-bottom: 8.6vw;
+    margin-left: 2vw;
+}
+
+.feedback__form-name,
+.feedback__form-tel,
+.feedback__form-email{
+    /* font: 600 10px/13px Montserrat, Arial, Helvetica, sans-serif; */
+    font: 600 3.1vw/4vw Montserrat, Arial, Helvetica, sans-serif;
+    width: 63vw;
+    padding: 5.7vw 9.7vw 5.2vw 8.9vw;
+    margin-bottom: 4vw;
+    margin-left: 1.2vw;
+    border-radius: 50px;
+    border: none;
+}
+
+.feedback__form-email{
+	margin-bottom: 9.8vw;
+}
+
+.feedback__form-button{
+    /* font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif; */
+    font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+    width: 81.2vw;
+    padding: 4.8vw 10vw 4.8vw 9.9vw;
+    margin-left: 2vw;
+}
+
+.footer{
+	background: #330099;  /* Для визуализации текста */
+}
+
+.footer__header,
+.footer__copyright{
+    /* font: 20px/24px Roboto, Arial, Helvetica, sans-serif; */
+    font: 4.4vw/5.3vw Roboto, Arial, Helvetica, sans-serif;
+}
+
+.footer__header {
+    padding: 10.2vw 0.9vw 3.8vw 0;
+}
+
+.footer__image_div{
+    margin-bottom: 15vw;
+    width: 81vw;
+}
+
+.footer__image{
+	height: 10.94vw;
+	width: 10.94vw;
+}
+
+.footer__copyright{
+	padding-bottom: 9.2vw;
 }

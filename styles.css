@@ -140,7 +140,7 @@ p{
 }
 
 .main{
-	padding: 10.5vw 0;
+	padding: 10.55vw 0;
 	text-align: right;
 	background: no-repeat url(img/img_background.jpg);
 	background-size: cover;
@@ -148,10 +148,10 @@ p{
 }
 
 .main__title{
-	margin: 0 0 .6vw 0;
-	padding: 0 0 0 53%;
-	font: 900  2.78vw/3.4vw Montserrat, Arial, Helvetica, sans-serif;
-	color: #330099;
+    margin: 0 0 .5vw 0;
+    padding: 0 0 0 53%;
+    font: 900  2.78vw/3.41vw Montserrat, Arial, Helvetica, sans-serif;
+    color: #330099;
 }
 
 .main__description{
@@ -176,7 +176,7 @@ p{
 }
 
 .advantages__header{
-	margin-bottom: 3.6vw;
+	margin-bottom: 3.43vw;
 }
 
 .advantages{
@@ -185,7 +185,7 @@ p{
 }
 
 .advantages__div{
-	margin-bottom: 6.7vw;
+	margin-bottom: 6.58vw;
 }
 
 .advantages__box{
@@ -198,7 +198,7 @@ p{
 .advantages__card{
 	text-align: center;
 	width: 30%;
-	padding-top: 7.9vw;
+	padding-top: 8vw;
 
 }
 
@@ -210,13 +210,14 @@ p{
 	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
 	font: 900 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
 	color: #585858;
-  margin: 0 2vw 0.6vw 2vw;
+  margin: 0 2vw 0.65vw 2vw;
 }
 
 .advantages__card-description,
 .skills__card_description{
 	/*font: 500 20px/25px Montserrat, Arial, Helvetica, sans-serif;*/
 	font: 500 1.4vw/1.7vw Montserrat, Arial, Helvetica, sans-serif;
+	letter-spacing: -0.1px;
 	color: #585858;
   margin: 0 0.2vw 0 -0.2vw;
 }
@@ -360,7 +361,7 @@ p{
 
 .feedback__description{
     /*font: 600 20px/24px Montserrat, Arial, Helvetica, sans-serif;*/
-    font: 600 1.4vw/1.65vw Montserrat, Arial, Helvetica, sans-serif;
+    font: 600 1.4vw/1.68vw Montserrat, Arial, Helvetica, sans-serif;
     color: #585858;
     padding: 0 0 0 1vw;
     width: 33%;
@@ -387,12 +388,12 @@ p{
 .feedback__form-name,
 .feedback__form-tel,
 .feedback__form-email{
-    /*font: 600 15px/18px Montserrat, Arial, Helvetica, sans-serif;*/
-    font: 600 1.04vw/1.27vw Montserrat, Arial, Helvetica, sans-serif;
+    /* font: 600 15px/18px Montserrat, Arial, Helvetica, sans-serif; */
+    font: 600 1.04vw/1.24vw Montserrat, Arial, Helvetica, sans-serif;
     color: #858585;
-    width: 14vw;
-    padding: 1.7vw 3.7vw 1.8vw 2.9vw;
-    margin-bottom: 1.55vw;
+    width: 14.3vw;
+    padding: 1.83vw 3.7vw 1.8vw 2.7vw;
+    margin-bottom: 1.4vw;
     margin-left: 1vw;
     border-radius: 50px;
     border: none;
@@ -453,7 +454,7 @@ p{
 	/*width: 80%;*/
 }
 .menu{
-	padding: 16px 0 20px 0;
+	padding: 15px 0 21px 0;
 }
 
 .menu__button {
@@ -475,8 +476,8 @@ p{
 }
 
 .main {
-    padding: 8vw 0 0 0;
-    background-position: 13% 0;
+    padding: 7.8vw 0 36.5vw 0;
+    background-position: 12.8% 0;
 }
 
 .main__title {
@@ -491,15 +492,19 @@ p{
 }
 
 .main__description {
-	padding: 0 1% 37vw 28%;
+	padding: 0 1% 0 28%;
 	font: 700 5vw/6.3vw Montserrat, Arial, Helvetica, sans-serif;
 }
 
 .advantages{
-	padding: 10.5vw 0 14vw 0;
+	padding: 10.95vw 0 14vw 0;
 }
 .advantages__header{
 	margin-bottom: 11vw;
+}
+
+.advantages__header_span{
+	margin-inline-end: 1.6vw;
 }
 
 .advantages__header,
@@ -510,7 +515,7 @@ p{
 	/*width: 80%;*/
 }
 .advantages__div{
-	margin-bottom: 11.5vw;
+	margin-bottom: 10.2vw;
 }
 .advantages__box{
     display: flex;
@@ -525,7 +530,7 @@ p{
 	width: 100%;
 	padding-top: 18.5vw;
 	margin-bottom: 11vw;
-	min-height: 32vw;
+	min-height: 31vw;
 }
 
 .advantages__card_image{
@@ -537,11 +542,15 @@ p{
 	font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
 	width: 80%;
   margin: 0 auto;
-  margin-bottom: 2vw;
+  margin-bottom: 1vw;
+}
+
+.advantages__card-header_3{
+	padding-left: 2vw;
 }
 
 .advantages__card-description{
-	font: 500 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+  font: 500 5vw/6.3vw Montserrat, Arial, Helvetica, sans-serif;
   margin: 0;
 }
 .br_symvol{
@@ -573,7 +582,7 @@ p{
 }
 
 .skills{
-	padding-bottom: 10.5vw;
+	padding-bottom: 10.7vw;
 }
 
 .skills__header{
@@ -615,7 +624,7 @@ p{
 .text__block{
 	display: flex;
 	justify-content: center;
-	min-height: 7.5vw;
+	min-height: 19vw;
 }
 
 .text__block-padding{
@@ -695,11 +704,11 @@ p{
 }
 
 .feedback{
-	padding: 2.4vw 1vw 9.5vw 0;
+	padding: 2.4vw 1vw 9.68vw 0;
 }
 
 .feedback__header{
-	margin: 0 0 6.4vw 1.5vw;
+	margin: 0 0 6.2vw 1.5vw;
     padding-top: 8vw;
 }
 
@@ -707,10 +716,10 @@ p{
     /* font: 600 16px/20px Montserrat, Arial, Helvetica, sans-serif; */
     font: 600 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
     color: #585858;
-    padding: 0 0 0 1vw;
+    padding: 0 0 0 1.5vw;
     width: 95%;
     margin: 0 auto;
-    margin-bottom: 6.5vw;
+    margin-bottom: 6.8vw;
     text-align: center;
 }
 /*
@@ -725,7 +734,7 @@ p{
 .feedback__image_div{
     background-size: 54.6vw;
     min-height: 55vw;
-    margin-bottom: 8.6vw;
+    margin-bottom: 8.5vw;
     margin-left: 2vw;
 }
 
@@ -743,7 +752,7 @@ p{
 }
 
 .feedback__form-email{
-	margin-bottom: 9.8vw;
+	margin-bottom: 9.5vw;
 }
 
 .feedback__form-button{

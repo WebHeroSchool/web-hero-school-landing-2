@@ -1,44 +1,44 @@
 body{
-	margin: 0;
+  margin: 0;
 }
 p{
-	margin: 0;
+  margin: 0;
 }
 
 .container{
-	width: 82%;
-	margin: auto;
+  width: 82%;
+  margin: auto;
 }
 
 .header{
-	border: 3px solid #330099;
-	border-left-style: none;
-	border-right-style: none;
+  border: 3px solid #330099;
+  border-left-style: none;
+  border-right-style: none;
 }
 
 .menu{
-	padding: 3.1vw 0 2.9vw 0;
-	text-align: right;
+  padding: 3.1vw 0 2.9vw 0;
+  text-align: right;
 }
 
 .menu__item{
-	margin-right: 2.75vw;
-	font: 800 1.39vw/1.43vw Gilroy, Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	color: #585858;
+  margin-right: 2.75vw;
+  font: 800 1.39vw/1.43vw Gilroy, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #585858;
 }
 
 .menu__button{
-	padding: .84vw 2.1vw;
-	font: 800 1.39vw/1.43vw Montserrat, Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	color: #FFF;
-	background: #330099;
-	border-radius: 50px;
+  padding: .84vw 2.1vw;
+  font: 800 1.39vw/1.43vw Montserrat, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #FFF;
+  background: #330099;
+  border-radius: 50px;
 }
 
 .hamburger-menu{
-	display: none;
+  display: none;
 }
 
 #hamburger-menu__toggle {
@@ -104,11 +104,11 @@ p{
 }
 
 .hamburger-menu__box_item:hover{
-	background: #ECF3FF;
+  background: #ECF3FF;
 }
 
 .hamburger-menu__box_item_active{
-	background: #ECF3FF;
+  background: #ECF3FF;
 }
 
 #hamburger-menu__toggle:checked ~ .hamburger-menu__btn > span {
@@ -140,28 +140,28 @@ p{
 }
 
 .main{
-	padding: 10.55vw 0;
-	text-align: right;
-	background: no-repeat url(img/img_background.jpg);
-	background-size: cover;
-	/*margin-bottom: 6.28vw;*/
+  padding: 10.55vw 0;
+  text-align: right;
+  background: no-repeat url(img/img_background.jpg);
+  background-size: cover;
+  /*margin-bottom: 6.28vw;*/
 }
 
 .main__title{
-    margin: 0 0 .5vw 0;
-    padding: 0 0 0 53%;
-    font: 900  2.78vw/3.41vw Montserrat, Arial, Helvetica, sans-serif;
-    color: #330099;
+  margin: 0 0 .5vw 0;
+  padding: 0 0 0 53%;
+  font: 900  2.78vw/3.41vw Montserrat, Arial, Helvetica, sans-serif;
+  color: #330099;
 }
 
 .main__description{
-	margin: 0;
-	padding: 0 0 0 70%;
-	font: bold  2.08vw/2.5vw Montserrat, Arial, Helvetica, sans-serif;
-	color: #FFF;
+  margin: 0;
+  padding: 0 0 0 70%;
+  font: bold  2.08vw/2.5vw Montserrat, Arial, Helvetica, sans-serif;
+  color: #FFF;
 }
 .main__description_first-line{
-	    margin-inline-end: .6vw;
+  margin-inline-end: .6vw;
 }
 
 /* Заголовки <h2> (можно было написать просто h2...) */
@@ -169,81 +169,81 @@ p{
 .advantages__header,
 .skills__header,
 .feedback__header{
-	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
-	font: 900 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: #585858;
+  /*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
+  font: 900 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #585858;
 }
 
 .advantages__header{
-	margin-bottom: 3.43vw;
+  margin-bottom: 3.43vw;
 }
 
 .advantages{
-	background: #F9F9F9;
-	padding: 4.5vw 0 6.3vw 0;
+  background: #F9F9F9;
+  padding: 4.5vw 0 6.3vw 0;
 }
 
 .advantages__div{
-	margin-bottom: 6.58vw;
+  margin-bottom: 6.58vw;
 }
 
 .advantages__box{
-	display: flex;
-	justify-content: space-between;
-	margin-left: -1.45vw;
-	margin-right: -0.7vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -1.45vw;
+  margin-right: -0.7vw;
 }
 
 .advantages__card{
-	text-align: center;
-	width: 30%;
-	padding-top: 8vw;
+  text-align: center;
+  width: 30%;
+  padding-top: 8vw;
 
 }
 
 .advantages__card_image{
-	margin-bottom: 1.5vw;
+  margin-bottom: 1.5vw;
 }
 
 .advantages__card-header{
-	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
-	font: 900 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
-	color: #585858;
+  /*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
+  font: 900 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
+  color: #585858;
   margin: 0 2vw 0.65vw 2vw;
 }
 
 .advantages__card-description,
 .skills__card_description{
-	/*font: 500 20px/25px Montserrat, Arial, Helvetica, sans-serif;*/
-	font: 500 1.4vw/1.7vw Montserrat, Arial, Helvetica, sans-serif;
-	letter-spacing: -0.1px;
-	color: #585858;
+  /*font: 500 20px/25px Montserrat, Arial, Helvetica, sans-serif;*/
+  font: 500 1.4vw/1.7vw Montserrat, Arial, Helvetica, sans-serif;
+  letter-spacing: -0.1px;
+  color: #585858;
   margin: 0 0.2vw 0 -0.2vw;
 }
 .br_symvol{
-	display: none;
+  display: none;
 }
 .advantages__card_1{
-		background: no-repeat url(img/heart3.svg);
-		background-position: top center;
-		background-size: 6vw;
+  background: no-repeat url(img/heart3.svg);
+  background-position: top center;
+  background-size: 6vw;
 }
 
 .advantages__card_2{
-	  background: no-repeat url(img/price3.svg);
-    background-position: top center;
-    background-size: 6vw;
+  background: no-repeat url(img/price3.svg);
+  background-position: top center;
+  background-size: 6vw;
 }
 
 .advantages__card_3{
-    background: no-repeat url(img/medal.svg);
-    background-position: top center;
-    background-size: 6vw;
+  background: no-repeat url(img/medal.svg);
+  background-position: top center;
+  background-size: 6vw;
 }
 
 .button_div{
-	display: block;
+  display: block;
 }
 
 .advantages__button{
@@ -261,263 +261,263 @@ p{
   max-width: fit-content;
 }
 .skills{
-	padding: 6.2vw 0 1vw 0;
+  padding: 6.2vw 0 1vw 0;
 }
 
 .skills__header{
-	margin: 0 0 3.4vw 0;
+  margin: 0 0 3.4vw 0;
 }
 
 .skills__card{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	min-height: 12.45vw;
-	margin-bottom: 5.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 12.45vw;
+  margin-bottom: 5.2vw;
 }
 
 .text__block{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	min-height: 7.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 7.5vw;
 }
 
 .text__block-padding{
-	padding-left: 1vw;
+  padding-left: 1vw;
 }
 
 
 .skills__card_header{
-	/*font: 600 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
-	font: 600 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
-	color: #585858;
-	width: 40vw;
-	margin: 0 0.2vw 0.5vw 0;
+  /*font: 600 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
+  font: 600 2.08vw/2.57vw Montserrat, Arial, Helvetica, sans-serif;
+  color: #585858;
+  width: 40vw;
+  margin: 0 0.2vw 0.5vw 0;
 }
 
 .left_card{
-	text-align: left;
-	padding: 0 0 0 14vw;
+  text-align: left;
+  padding: 0 0 0 14vw;
 }
 
 .right_card{
-	padding: 0 13.7vw 0 0;
-	text-align: right;
-	align-items: flex-end;
+  padding: 0 13.7vw 0 0;
+  text-align: right;
+  align-items: flex-end;
 }
 
 .skills__card_1{
-	background:  no-repeat url(img/skill1.svg);
-	background-size: 12.15vw;
+  background:  no-repeat url(img/skill1.svg);
+  background-size: 12.15vw;
 }
 
 .skills__card_2{
-	background:  no-repeat url(img/skill2.svg);
-	background-position: right;
-	background-size: 12.15vw;
+  background:  no-repeat url(img/skill2.svg);
+  background-position: right;
+  background-size: 12.15vw;
 }
 
 .skills__card_3{
-	background:  no-repeat url(img/skill3.svg);
-	background-size: 12.15vw;
+  background:  no-repeat url(img/skill3.svg);
+  background-size: 12.15vw;
 }
 
 .skills__card_description{
-	width: 32vw;
+  width: 32vw;
 }
 
 .skills__card_description_right{
-	text-align: right;
+  text-align: right;
 }
 .dots{
-    display: none;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 23.5vw;
-    margin: 0 auto;
-    padding-top: 115.5vw;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 23.5vw;
+  margin: 0 auto;
+  padding-top: 115.5vw;
 }
 
 .dot{
-	border: solid 2px #E1E6E9;
-    width: 4vw;
-    height: 4vw;
-    border-radius: 50%;
+  border: solid 2px #E1E6E9;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
 }
 /*
 .dot__fill{
-	background:#FFDA45;
+  background:#FFDA45;
 }
 */
 .feedback{
-	padding: 2.4vw 1vw 4.15vw 0;
-	background: #E7E0F3
+  padding: 2.4vw 1vw 4.15vw 0;
+  background: #E7E0F3
 }
 
 .feedback__header{
-	margin: 1.7vw 0 2.5vw 0;
+  margin: 1.7vw 0 2.5vw 0;
 }
 
 .feedback__description{
-    /*font: 600 20px/24px Montserrat, Arial, Helvetica, sans-serif;*/
-    font: 600 1.4vw/1.68vw Montserrat, Arial, Helvetica, sans-serif;
-    color: #585858;
-    padding: 0 0 0 1vw;
-    width: 33%;
-    margin: 0 auto;
-    margin-bottom: 2.5vw;
-    text-align: center;
+  /*font: 600 20px/24px Montserrat, Arial, Helvetica, sans-serif;*/
+  font: 600 1.4vw/1.68vw Montserrat, Arial, Helvetica, sans-serif;
+  color: #585858;
+  padding: 0 0 0 1vw;
+  width: 33%;
+  margin: 0 auto;
+  margin-bottom: 2.5vw;
+  text-align: center;
 }
 .feedback__form{
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* width: 30vw; */
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 30vw; */
+  margin: 0 auto;
 }
 
 .feedback__image_div{
-	background: no-repeat url(img/questions.svg);
-    background-size: 12.15vw;
-    background-position: top center;
-    min-height: 12.5vw;
-    margin-bottom: 3vw;
+  background: no-repeat url(img/questions.svg);
+  background-size: 12.15vw;
+  background-position: top center;
+  min-height: 12.5vw;
+  margin-bottom: 3vw;
 }
 
 .feedback__form-name,
 .feedback__form-tel,
 .feedback__form-email{
-    /* font: 600 15px/18px Montserrat, Arial, Helvetica, sans-serif; */
-    font: 600 1.04vw/1.24vw Montserrat, Arial, Helvetica, sans-serif;
-    color: #858585;
-    width: 14.3vw;
-    padding: 1.83vw 3.7vw 1.8vw 2.7vw;
-    margin-bottom: 1.4vw;
-    margin-left: 1vw;
-    border-radius: 50px;
-    border: none;
+  /* font: 600 15px/18px Montserrat, Arial, Helvetica, sans-serif; */
+  font: 600 1.04vw/1.24vw Montserrat, Arial, Helvetica, sans-serif;
+  color: #858585;
+  width: 14.3vw;
+  padding: 1.83vw 3.7vw 1.8vw 2.7vw;
+  margin-bottom: 1.4vw;
+  margin-left: 1vw;
+  border-radius: 50px;
+  border: none;
 }
 
 .feedback__form-email{
-	margin-bottom: 2.5vw;
+  margin-bottom: 2.5vw;
 }
 
 .feedback__form-button{
-    /*font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif;*/
-    font: 900 1.4vw/1.65vw Montserrat, Arial, Helvetica, sans-serif;
-    color: #FFF;
-    background: #4AB272;
-    width: 21vw;
-    padding: 1.55vw 3vw 1.7vw 3vw;
-    /* margin-bottom: 1.55vw; */
-    margin-left: 1vw;
-    border-radius: 50px;
-    border: none;
+  /*font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif;*/
+  font: 900 1.4vw/1.65vw Montserrat, Arial, Helvetica, sans-serif;
+  color: #FFF;
+  background: #4AB272;
+  width: 21vw;
+  padding: 1.55vw 3vw 1.7vw 3vw;
+  /* margin-bottom: 1.55vw; */
+  margin-left: 1vw;
+  border-radius: 50px;
+  border: none;
 }
 
 .footer{
-	background: #330099;  /* Для визуализации текста */
+  background: #330099;  /* Для визуализации текста */
 }
 
 .footer__header,
 .footer__copyright{
-	/*font: 20px/24px Roboto, Arial, Helvetica, sans-serif;*/
-	font: 1.4vw/1.65vw Roboto, Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: #FFF;
+  /*font: 20px/24px Roboto, Arial, Helvetica, sans-serif;*/
+  font: 1.4vw/1.65vw Roboto, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #FFF;
 }
 
 .footer__header {
-    padding: 4.2vw 0 1.3vw 0;
+  padding: 4.2vw 0 1.3vw 0;
 }
 
 .footer__image_div{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    margin-bottom: 5.2vw;
-    width: 26.5vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 5.2vw;
+  width: 26.5vw;
 }
 
 .footer__copyright{
-	padding-bottom: 4.25vw;
+  padding-bottom: 4.25vw;
 }
 
 @media(max-width: 755px){
 
-.header {
-	border: none;
-	margin: 0;
-}
-.container{
-	/*width: 80%;*/
-}
-.menu{
-	padding: 15px 0 21px 0;
-}
+  .header {
+    border: none;
+    margin: 0;
+  }
+  .container{
+    /*width: 80%;*/
+  }
+  .menu{
+    padding: 15px 0 21px 0;
+  }
 
-.menu__button {
+  .menu__button {
     padding: 5px 11px 5px 12px;
     font: 800 8px/10px Montserrat, Arial, Helvetica, sans-serif;
     margin: 0 43px 0 0;
-}
+  }
 
-.menu__item{
-	display: none;
-}
+  .menu__item{
+    display: none;
+  }
 
-.hamburger-menu{
-	display: inline;
-}
+  .hamburger-menu{
+    display: inline;
+  }
 
-.hamburger-menu__btn {
-	visibility: visible;
-}
+  .hamburger-menu__btn {
+    visibility: visible;
+  }
 
-.main {
+  .main {
     padding: 7.8vw 0 36.5vw 0;
     background-position: 12.8% 0;
-}
+  }
 
-.main__title {
-	margin: 0;
-	text-align: center;
+  .main__title {
+    margin: 0;
+    text-align: center;
     padding: 0 0 0 12%;
-	font: 900 6.25vw/7.5vw Montserrat, Arial, Helvetica, sans-serif;
-}
+    font: 900 6.25vw/7.5vw Montserrat, Arial, Helvetica, sans-serif;
+  }
 
-.main__title_two-line{
-	margin-left: 7%;
-}
+  .main__title_two-line{
+    margin-left: 7%;
+  }
 
-.main__description {
-	padding: 0 1% 0 28%;
-	font: 700 5vw/6.3vw Montserrat, Arial, Helvetica, sans-serif;
-}
+  .main__description {
+    padding: 0 1% 0 28%;
+    font: 700 5vw/6.3vw Montserrat, Arial, Helvetica, sans-serif;
+  }
 
-.advantages{
-	padding: 10.95vw 0 14vw 0;
-}
-.advantages__header{
-	margin-bottom: 11vw;
-}
+  .advantages{
+    padding: 10.95vw 0 14vw 0;
+  }
+  .advantages__header{
+    margin-bottom: 11vw;
+  }
 
-.advantages__header_span{
-	margin-inline-end: 1.6vw;
-}
+  .advantages__header_span{
+    margin-inline-end: 1.6vw;
+  }
 
-.advantages__header,
-.skills__header,
-.feedback__header{
-	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
-	font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
-	/*width: 80%;*/
-}
-.advantages__div{
-	margin-bottom: 10.2vw;
-}
-.advantages__box{
+  .advantages__header,
+  .skills__header,
+  .feedback__header{
+    /*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
+    font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+    /*width: 80%;*/
+  }
+  .advantages__div{
+    margin-bottom: 10.2vw;
+  }
+  .advantages__box{
     display: flex;
     flex-direction: column;
 /*    justify-content: space-between;
@@ -526,27 +526,27 @@ p{
 }
 
 .advantages__card{
-	text-align: center;
-	width: 100%;
-	padding-top: 18.5vw;
-	margin-bottom: 11vw;
-	min-height: 31vw;
+  text-align: center;
+  width: 100%;
+  padding-top: 18.5vw;
+  margin-bottom: 11vw;
+  min-height: 31vw;
 }
 
 .advantages__card_image{
-	margin-bottom: 1.5vw;
+  margin-bottom: 1.5vw;
 }
 
 .advantages__card-header{
-	/*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
-	font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
-	width: 80%;
+  /*font: 900 30px/37px Montserrat, Arial, Helvetica, sans-serif;*/
+  font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 1vw;
 }
 
 .advantages__card-header_3{
-	padding-left: 2vw;
+  padding-left: 2vw;
 }
 
 .advantages__card-description{
@@ -554,25 +554,25 @@ p{
   margin: 0;
 }
 .br_symvol{
-	display: inline;
+  display: inline;
 }
 
 .advantages__card_1{
-/*		background: no-repeat url(img/heart3.svg);
-		background-position: top center;*/
-		background-size: 17.4vw;
-}
+/*    background: no-repeat url(img/heart3.svg);
+    background-position: top center;*/
+    background-size: 17.4vw;
+  }
 
-.advantages__card_2{
-/*	  background: no-repeat url(img/price3.svg);
+  .advantages__card_2{
+/*    background: no-repeat url(img/price3.svg);
     background-position: top center;*/
     background-size: 17.4vw;
 }
 
 .advantages__card_3{
-    background-size: 17.4vw;
-    margin-bottom: 0;
-   /*padding-top: 19vw;*/
+  background-size: 17.4vw;
+  margin-bottom: 0;
+  /*padding-top: 19vw;*/
 }
 
 .advantages__button{
@@ -582,23 +582,23 @@ p{
 }
 
 .skills{
-	padding-bottom: 10.7vw;
+  padding-bottom: 10.7vw;
 }
 
 .skills__header{
-	margin: 0 0 10.9vw 0;
-	padding-top: 5vw;
+  margin: 0 0 10.9vw 0;
+  padding-top: 5vw;
 }
 
 .skills__card{
-	position: absolute;
-	min-height: 50.45vw;
-	margin-bottom: 0;
-	padding: 58.2vw 0 0 0;
+  position: absolute;
+  min-height: 50.45vw;
+  margin-bottom: 0;
+  padding: 58.2vw 0 0 0;
   animation: round 12s infinite;
   opacity: 0;
-	width: 93%;
-	left: 3vw;
+  width: 93%;
+  left: 3vw;
 }
 
 @keyframes round {
@@ -622,61 +622,61 @@ p{
 }
 
 .text__block{
-	display: flex;
-	justify-content: center;
-	min-height: 19vw;
+  display: flex;
+  justify-content: center;
+  min-height: 19vw;
 }
 
 .text__block-padding{
-	/*padding-left: 1vw;*/
-	padding: 0;
+  /*padding-left: 1vw;*/
+  padding: 0;
 }
 
 
 .skills__card_header{
-    font: 600 5vw/6.3vw Montserrat, Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 85%;
-    margin: 0 auto;
-    margin-bottom: 2.4vw;
+  font: 600 5vw/6.3vw Montserrat, Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 2.4vw;
 }
 
 .skills__card_1,
 .skills__card_2,
 .skills__card_3{
-    background-size: 54.6vw;
-    background-position: top center;
+  background-size: 54.6vw;
+  background-position: top center;
 }
 
 .skills__card_description{
-    font: 500 4.4vw/5.4vw Montserrat, Arial, Helvetica, sans-serif;
-    width: 80%;
-    margin: 0 auto;
-	margin-bottom: 9.2vw;
+  font: 500 4.4vw/5.4vw Montserrat, Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 9.2vw;
 }
 .skills__card_description_right{
-		text-align: center;
+  text-align: center;
 }
 
 .left_card{
-	text-align: center;
+  text-align: center;
 }
 .right_card{
-	text-align: center;
+  text-align: center;
 }
 
 /*
 .desktop-only{
-	display: none;
+  display: none;
 }
 */
 
 .dots{
-    display: flex;
+  display: flex;
 }
 
 .dot{
-		animation: filling 12s infinite;
+  animation: filling 12s infinite;
 }
 
 
@@ -704,27 +704,27 @@ p{
 }
 
 .feedback{
-	padding: 2.4vw 1vw 9.68vw 0;
+  padding: 2.4vw 1vw 9.68vw 0;
 }
 
 .feedback__header{
-	margin: 0 0 6.2vw 1.5vw;
-    padding-top: 8vw;
+  margin: 0 0 6.2vw 1.5vw;
+  padding-top: 8vw;
 }
 
 .feedback__description{
-    /* font: 600 16px/20px Montserrat, Arial, Helvetica, sans-serif; */
-    font: 600 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
-    color: #585858;
-    padding: 0 0 0 1.5vw;
-    width: 95%;
-    margin: 0 auto;
-    margin-bottom: 6.8vw;
-    text-align: center;
+  /* font: 600 16px/20px Montserrat, Arial, Helvetica, sans-serif; */
+  font: 600 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+  color: #585858;
+  padding: 0 0 0 1.5vw;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 6.8vw;
+  text-align: center;
 }
 /*
 .feedback__form{
-	display: flex;
+  display: flex;
     flex-direction: column;
     align-items: center;
     /* width: 30vw;
@@ -732,61 +732,61 @@ p{
 }
  */
 .feedback__image_div{
-    background-size: 54.6vw;
-    min-height: 55vw;
-    margin-bottom: 8.5vw;
-    margin-left: 2vw;
+  background-size: 54.6vw;
+  min-height: 55vw;
+  margin-bottom: 8.5vw;
+  margin-left: 2vw;
 }
 
 .feedback__form-name,
 .feedback__form-tel,
 .feedback__form-email{
-    /* font: 600 10px/13px Montserrat, Arial, Helvetica, sans-serif; */
-    font: 600 3.1vw/4vw Montserrat, Arial, Helvetica, sans-serif;
-    width: 63vw;
-    padding: 5.7vw 9.7vw 5.2vw 8.9vw;
-    margin-bottom: 4vw;
-    margin-left: 1.2vw;
-    border-radius: 50px;
-    border: none;
+  /* font: 600 10px/13px Montserrat, Arial, Helvetica, sans-serif; */
+  font: 600 3.1vw/4vw Montserrat, Arial, Helvetica, sans-serif;
+  width: 63vw;
+  padding: 5.7vw 9.7vw 5.2vw 8.9vw;
+  margin-bottom: 4vw;
+  margin-left: 1.2vw;
+  border-radius: 50px;
+  border: none;
 }
 
 .feedback__form-email{
-	margin-bottom: 9.5vw;
+  margin-bottom: 9.5vw;
 }
 
 .feedback__form-button{
-    /* font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif; */
-    font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
-    width: 81.2vw;
-    padding: 4.8vw 10vw 4.8vw 9.9vw;
-    margin-left: 2vw;
+  /* font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif; */
+  font: 900 5vw/6vw Montserrat, Arial, Helvetica, sans-serif;
+  width: 81.2vw;
+  padding: 4.8vw 10vw 4.8vw 9.9vw;
+  margin-left: 2vw;
 }
 
 .footer{
-	background: #330099;  /* Для визуализации текста */
+  background: #330099;  /* Для визуализации текста */
 }
 
 .footer__header,
 .footer__copyright{
-    /* font: 20px/24px Roboto, Arial, Helvetica, sans-serif; */
-    font: 4.4vw/5.3vw Roboto, Arial, Helvetica, sans-serif;
+  /* font: 20px/24px Roboto, Arial, Helvetica, sans-serif; */
+  font: 4.4vw/5.3vw Roboto, Arial, Helvetica, sans-serif;
 }
 
 .footer__header {
-    padding: 10.2vw 0.9vw 3.8vw 0;
+  padding: 10.2vw 0.9vw 3.8vw 0;
 }
 
 .footer__image_div{
-    margin-bottom: 15vw;
-    width: 81vw;
+  margin-bottom: 15vw;
+  width: 81vw;
 }
 
 .footer__image{
-	height: 10.94vw;
-	width: 10.94vw;
+  height: 10.94vw;
+  width: 10.94vw;
 }
 
 .footer__copyright{
-	padding-bottom: 9.2vw;
+  padding-bottom: 9.2vw;
 }
